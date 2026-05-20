@@ -1,3 +1,11 @@
+## [0.4.0] - 2026-05-20
+
+### Added
+
+- Read-only JSON file adapter with diagnostics for missing, unreadable, and invalid JSON files.
+- Raw RemNote export directory loader for required `rem.json` and supported optional export files.
+- RemNote export envelope validator for shared `docs` envelopes and the documented `metadata.json` exception.
+
 ## [0.3.0] - 2026-05-20
 
 ### Added

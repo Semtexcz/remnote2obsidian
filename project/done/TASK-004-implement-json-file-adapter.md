@@ -1,7 +1,7 @@
 ---
 task: TASK-004
 title: "Implement JSON file adapter"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ Export loading belongs in `adapters/`. RemNote export files are read-only input,
 
 ## Done
 
-- [ ] adapter reads valid JSON
-- [ ] adapter reports missing and unreadable files
-- [ ] adapter reports invalid JSON
-- [ ] adapter does not write or modify input files
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] adapter reads valid JSON
+- [x] adapter reports missing and unreadable files
+- [x] adapter reports invalid JSON
+- [x] adapter does not write or modify input files
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

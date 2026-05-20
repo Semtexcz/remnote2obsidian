@@ -1,7 +1,7 @@
 ---
 task: TASK-005
 title: "Load RemNote export directory"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ FEATURE-001 requires `rem.json` as the primary file and recognizes optional expo
 
 ## Done
 
-- [ ] export loader reads `rem.json`
-- [ ] optional files are loaded when present
-- [ ] absent optional files do not block loading
-- [ ] loaded raw data is preserved without transformation
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] export loader reads `rem.json`
+- [x] optional files are loaded when present
+- [x] absent optional files do not block loading
+- [x] loaded raw data is preserved without transformation
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

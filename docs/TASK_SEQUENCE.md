@@ -2,9 +2,6 @@
 
 ## Order
 
-- TASK-004 Implement JSON file adapter
-- TASK-005 Load RemNote export directory
-- TASK-006 Validate export envelope
 - TASK-007 Define raw RemNote models
 - TASK-008 Parse raw Rem documents
 - TASK-009 Parse rich text fragments
@@ -30,14 +27,8 @@
 
 ## Dependencies
 
-### Loading and Validation
-
-- TASK-005 <- TASK-004
-- TASK-006 <- TASK-005
-
 ### Parsing and Graph
 
-- TASK-007 <- TASK-006
 - TASK-008 <- TASK-007
 - TASK-009 <- TASK-008
 - TASK-010 <- TASK-008, TASK-009
@@ -76,4 +67,4 @@ Do not violate Dependencies.
 
 ## MVP Path
 
-TASK-001 through TASK-003 are complete. The remaining MVP path is TASK-004 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.
+TASK-001 through TASK-006 are complete. The remaining MVP path is TASK-007 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.

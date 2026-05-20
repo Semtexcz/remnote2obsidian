@@ -1,7 +1,7 @@
 ---
 task: TASK-006
 title: "Validate export envelope"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ Most RemNote export files use a shared envelope with `docs`, while `metadata.jso
 
 ## Done
 
-- [ ] valid envelopes pass validation
-- [ ] missing `docs` in shared-envelope files is reported
-- [ ] non-list `docs` values are reported
-- [ ] `metadata.json` is handled as a special documented case
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] valid envelopes pass validation
+- [x] missing `docs` in shared-envelope files is reported
+- [x] non-list `docs` values are reported
+- [x] `metadata.json` is handled as a special documented case
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
