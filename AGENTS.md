@@ -11,6 +11,7 @@ Agents must prioritize:
 - minimal scope changes
 - testability
 - maintainability
+- optimization for AI-agent workflows
 
 ---
 
@@ -35,6 +36,37 @@ Always read:
 
 ---
 
+## Agent Optimization Rules
+
+This repository is optimized for AI-assisted and agent-based development.
+
+Agents should minimize unnecessary future context consumption.
+
+Rules:
+
+- Write documentation continuously during development.
+- Document architecture decisions, module responsibilities, important flows, and non-obvious behavior.
+- Prefer creating or updating local documentation near the code instead of relying on future code re-reading.
+- Keep documentation concise, structured, and easy for another agent to scan quickly.
+- Add examples where they significantly reduce future reasoning cost.
+- Maintain clear public APIs and module boundaries.
+
+When possible:
+
+- Prefer mature third-party libraries over custom implementations.
+- Avoid reinventing standard infrastructure or utility logic.
+- Minimize total code volume while preserving clarity and maintainability.
+- Choose solutions that reduce future cognitive load for agents.
+
+Goal:
+
+- reduce token usage
+- reduce repeated repository scanning
+- reduce duplicated reasoning
+- improve implementation consistency between agents
+
+---
+
 ## Code Quality
 
 - Follow clean, explicit, and maintainable style.
@@ -43,6 +75,42 @@ Always read:
 - Every module, class, and function must include a docstring.
 - Keep functions small and single-purpose.
 - Avoid implicit behavior and magic values.
+
+---
+
+## Documentation Standards
+
+Documentation is mandatory.
+
+Agents should document:
+
+- module responsibilities
+- architecture boundaries
+- public APIs
+- important data flows
+- assumptions
+- limitations
+- integration points
+- non-obvious implementation details
+
+Preferred documentation locations:
+
+- module-level docstrings
+- `docs/`
+- ADRs
+- README files near complex modules
+
+Documentation should optimize future agent understanding and reduce the need for full codebase traversal.
+
+---
+
+## Dependencies
+
+- Use Poetry.
+- Do not add dependencies unless clearly justified.
+- Prefer standard library when possible.
+- However, if a stable and widely adopted third-party library significantly reduces custom code, prefer the library solution.
+- Favor libraries that improve maintainability and reduce implementation complexity.
 
 ---
 
@@ -150,14 +218,6 @@ Update `CHANGELOG.md`:
 
 ---
 
-## Dependencies
-
-- Use Poetry.
-- Do not add dependencies unless clearly justified.
-- Prefer standard library when possible.
-
----
-
 ## What NOT to Do
 
 - Do not expand task scope.
@@ -166,6 +226,7 @@ Update `CHANGELOG.md`:
 - Do not skip version bump or changelog.
 - Do not write vague commit messages.
 - Do not introduce undocumented behavior.
+- Do not create large custom utility layers when a stable library already solves the problem well.
 
 ---
 
@@ -186,3 +247,4 @@ A task is done only if:
 - tests pass
 - no unrelated code was modified
 - version and changelog were updated
+- relevant documentation was updated
