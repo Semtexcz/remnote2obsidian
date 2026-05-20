@@ -1,7 +1,7 @@
 ---
 task: TASK-010
 title: "Build Rem graph nodes"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ The internal graph is the boundary between parsing and later transformations. It
 
 ## Done
 
-- [ ] graph node model exists
-- [ ] nodes are keyed by original RemNote ID
-- [ ] duplicate IDs are reported
-- [ ] source metadata and unknown fields remain available
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] graph node model exists
+- [x] nodes are keyed by original RemNote ID
+- [x] duplicate IDs are reported
+- [x] source metadata and unknown fields remain available
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

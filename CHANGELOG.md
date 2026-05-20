@@ -1,3 +1,12 @@
+## [0.6.0] - 2026-05-20
+
+### Added
+
+- Internal Rem graph models for nodes, roots, hierarchy links, cards, and attachments.
+- Rem graph builder with duplicate ID diagnostics, deterministic hierarchy reconstruction, and unsupported type warnings.
+- Raw card metadata parsing and card-to-Rem integration by `rId`.
+- Attachment reference extraction for `%LOCAL_FILE%...` placeholders and HTTP asset URLs.
+
 ## [0.5.0] - 2026-05-20
 
 ### Added

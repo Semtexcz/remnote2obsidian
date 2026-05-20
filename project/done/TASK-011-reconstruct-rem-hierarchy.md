@@ -1,7 +1,7 @@
 ---
 task: TASK-011
 title: "Reconstruct Rem hierarchy"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ Hierarchy preservation is a core PRD requirement. RemNote exports may contain mu
 
 ## Done
 
-- [ ] parent-child relationships are available on graph output
-- [ ] root nodes are deterministic
-- [ ] broken links produce diagnostics
-- [ ] child ordering is stable
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] parent-child relationships are available on graph output
+- [x] root nodes are deterministic
+- [x] broken links produce diagnostics
+- [x] child ordering is stable
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

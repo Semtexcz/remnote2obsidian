@@ -1,7 +1,7 @@
 ---
 task: TASK-013
 title: "Integrate card metadata"
-status: backlog
+status: done
 priority: P2
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ PRD-001 notes that `cards.json` enriches rems through `rId`. Full spaced repetit
 
 ## Done
 
-- [ ] cards attach to matching graph nodes
-- [ ] multiple cards per Rem are supported
-- [ ] missing `cards.json` is accepted
-- [ ] unmatched cards produce diagnostics
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] cards attach to matching graph nodes
+- [x] multiple cards per Rem are supported
+- [x] missing `cards.json` is accepted
+- [x] unmatched cards produce diagnostics
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

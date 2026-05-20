@@ -1,7 +1,7 @@
 ---
 task: TASK-012
 title: "Handle unknown Rem types"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -41,12 +41,12 @@ The RemNote export format is partially reverse engineered. The project must pres
 
 ## Done
 
-- [ ] unknown type values remain available
-- [ ] unsupported types can be reported
-- [ ] graph construction continues for non-blocking unknown types
-- [ ] unknown records can be inspected after parsing
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] unknown type values remain available
+- [x] unsupported types can be reported
+- [x] graph construction continues for non-blocking unknown types
+- [x] unknown records can be inspected after parsing
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

@@ -2,6 +2,12 @@
 
 from remnote2obsidian.models.json import JsonArray, JsonObject, JsonValue
 from remnote2obsidian.models.raw_remnote import RawCardMetadata, RawRemDocument
+from remnote2obsidian.models.rem_graph import (
+    AttachmentReference,
+    AttachmentReferenceKind,
+    RemGraph,
+    RemGraphNode,
+)
 from remnote2obsidian.models.remnote_export import (
     OPTIONAL_EXPORT_FILENAMES,
     REQUIRED_EXPORT_FILENAME,
@@ -19,10 +25,14 @@ __all__ = [
     "JsonObject",
     "JsonValue",
     "OPTIONAL_EXPORT_FILENAMES",
+    "AttachmentReference",
+    "AttachmentReferenceKind",
     "RawCardMetadata",
     "RawRemDocument",
     "REQUIRED_EXPORT_FILENAME",
     "RemNoteExport",
+    "RemGraph",
+    "RemGraphNode",
     "RichTextFragment",
     "RichTextFragmentKind",
     "Result",

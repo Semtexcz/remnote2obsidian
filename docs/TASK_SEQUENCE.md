@@ -2,11 +2,6 @@
 
 ## Order
 
-- TASK-010 Build Rem graph nodes
-- TASK-011 Reconstruct Rem hierarchy
-- TASK-012 Handle unknown Rem types
-- TASK-013 Integrate card metadata
-- TASK-014 Extract attachment references
 - TASK-015 Render basic Markdown documents
 - TASK-016 Generate YAML frontmatter
 - TASK-017 Generate stable Markdown paths
@@ -24,16 +19,8 @@
 
 ## Dependencies
 
-### Parsing and Graph
-
-- TASK-011 <- TASK-010
-- TASK-012 <- TASK-010
-- TASK-013 <- TASK-010
-- TASK-014 <- TASK-010
-
 ### Markdown and Obsidian Output
 
-- TASK-015 <- TASK-011, TASK-012
 - TASK-016 <- TASK-015
 - TASK-017 <- TASK-015
 - TASK-018 <- TASK-017
@@ -61,4 +48,4 @@ Do not violate Dependencies.
 
 ## MVP Path
 
-TASK-001 through TASK-009 are complete. The remaining MVP path is TASK-010 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.
+TASK-001 through TASK-014 are complete. The remaining MVP path is TASK-015 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.

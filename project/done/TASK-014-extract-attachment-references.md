@@ -1,7 +1,7 @@
 ---
 task: TASK-014
 title: "Extract attachment references"
-status: backlog
+status: done
 priority: P2
 type: feature
 created: 2026-05-20
@@ -44,12 +44,12 @@ RemNote exports may contain `%LOCAL_FILE%...` placeholders and S3 URLs inside ri
 
 ## Done
 
-- [ ] local attachment placeholders are detected
-- [ ] remote asset URLs are detected
-- [ ] attachment references remain linked to source Rem IDs
-- [ ] unknown surrounding structures are preserved
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] local attachment placeholders are detected
+- [x] remote asset URLs are detected
+- [x] attachment references remain linked to source Rem IDs
+- [x] unknown surrounding structures are preserved
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
