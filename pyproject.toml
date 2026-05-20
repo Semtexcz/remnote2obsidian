@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "remnote2obsidian"
+version = "0.1.0"
+description = "Migration tool from RemNote to Obsidian."
+authors = ["Daniel Kopecký <kopecky.d@seznam.cz>"]
+readme = "README.md"
+packages = [{ include = "remnote2obsidian", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+pytest-cov = "^4.0"
+ruff = "^0.3"
+mypy = "^1.8"
+pre-commit = "^3.6"
+
+[tool.poetry.scripts]
+"remnote2obsidian" = "remnote2obsidian.main:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.mypy]
+python_version = "3.13"
+strict = true
