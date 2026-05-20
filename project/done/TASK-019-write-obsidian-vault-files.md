@@ -1,7 +1,7 @@
 ---
 task: TASK-019
 title: "Write Obsidian vault files"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ Filesystem writing belongs in `adapters/`, while Markdown rendering belongs in `
 
 ## Done
 
-- [ ] Markdown files are written to the output directory
-- [ ] directories are created as needed
-- [ ] write failures are reported
-- [ ] source export files are never modified
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] Markdown files are written to the output directory
+- [x] directories are created as needed
+- [x] write failures are reported
+- [x] source export files are never modified
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

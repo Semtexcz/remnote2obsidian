@@ -1,3 +1,12 @@
+## [0.7.0] - 2026-05-20
+
+### Added
+
+- Markdown document and path mapping models for Obsidian vault output.
+- Deterministic Markdown rendering with YAML frontmatter, child links, attachment listings, and unsupported fragment fallbacks.
+- Stable ID-backed Markdown path generation and Obsidian wikilink rendering.
+- Obsidian vault writer adapter for generated Markdown files.
+
 ## [0.6.0] - 2026-05-20
 
 ### Added

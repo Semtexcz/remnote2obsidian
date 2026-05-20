@@ -1,7 +1,7 @@
 ---
 task: TASK-016
 title: "Generate YAML frontmatter"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ Original RemNote IDs must always be preserved. Frontmatter provides a stable, hu
 
 ## Done
 
-- [ ] frontmatter includes original RemNote ID
-- [ ] metadata keys are ordered deterministically
-- [ ] optional metadata is included only when available
-- [ ] output remains valid Markdown
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] frontmatter includes original RemNote ID
+- [x] metadata keys are ordered deterministically
+- [x] optional metadata is included only when available
+- [x] output remains valid Markdown
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

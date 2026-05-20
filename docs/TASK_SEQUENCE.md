@@ -2,11 +2,6 @@
 
 ## Order
 
-- TASK-015 Render basic Markdown documents
-- TASK-016 Generate YAML frontmatter
-- TASK-017 Generate stable Markdown paths
-- TASK-018 Render Obsidian wikilinks
-- TASK-019 Write Obsidian vault files
 - TASK-020 Generate AI manifest
 - TASK-021 Write AI context files
 - TASK-022 Orchestrate migration service
@@ -19,16 +14,8 @@
 
 ## Dependencies
 
-### Markdown and Obsidian Output
-
-- TASK-016 <- TASK-015
-- TASK-017 <- TASK-015
-- TASK-018 <- TASK-017
-- TASK-019 <- TASK-016, TASK-017, TASK-018
-
 ### AI Context
 
-- TASK-020 <- TASK-011, TASK-014, TASK-017
 - TASK-021 <- TASK-020
 
 ### MVP Orchestration
@@ -48,4 +35,4 @@ Do not violate Dependencies.
 
 ## MVP Path
 
-TASK-001 through TASK-014 are complete. The remaining MVP path is TASK-015 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.
+TASK-001 through TASK-019 are complete. The remaining MVP path is TASK-020 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.

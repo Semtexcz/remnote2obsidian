@@ -1,7 +1,7 @@
 ---
 task: TASK-015
 title: "Render basic Markdown documents"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ Markdown rendering belongs in domain transformation logic and must remain separa
 
 ## Done
 
-- [ ] graph nodes can render to Markdown document content
-- [ ] rendering is deterministic
-- [ ] unsupported fragments remain visible or represented
-- [ ] renderer has no filesystem dependency
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] graph nodes can render to Markdown document content
+- [x] rendering is deterministic
+- [x] unsupported fragments remain visible or represented
+- [x] renderer has no filesystem dependency
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

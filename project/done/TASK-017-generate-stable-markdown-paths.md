@@ -1,7 +1,7 @@
 ---
 task: TASK-017
 title: "Generate stable Markdown paths"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ Obsidian-compatible output needs predictable file paths. Repeated migrations mus
 
 ## Done
 
-- [ ] every renderable graph node gets a stable path
-- [ ] duplicate titles do not collide
-- [ ] paths include enough stability to survive repeated runs
-- [ ] path mapping preserves RemNote IDs
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] every renderable graph node gets a stable path
+- [x] duplicate titles do not collide
+- [x] paths include enough stability to survive repeated runs
+- [x] path mapping preserves RemNote IDs
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

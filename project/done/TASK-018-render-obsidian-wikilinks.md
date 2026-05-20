@@ -1,7 +1,7 @@
 ---
 task: TASK-018
 title: "Render Obsidian wikilinks"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ RemNote content may contain references to other Rems. Obsidian output should mak
 
 ## Done
 
-- [ ] known RemNote references become wikilinks
-- [ ] unresolved references preserve target IDs
-- [ ] link rendering is deterministic
-- [ ] Markdown remains readable
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] known RemNote references become wikilinks
+- [x] unresolved references preserve target IDs
+- [x] link rendering is deterministic
+- [x] Markdown remains readable
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
