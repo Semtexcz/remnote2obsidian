@@ -1,0 +1,14 @@
+{
+  "userId": "user-fixture",
+  "knowledgebaseId": "kb-fixture",
+  "name": "Optional Files Fixture Cards",
+  "exportDate": "2026-05-20T00:00:00.000Z",
+  "exportVersion": 2,
+  "docs": [
+    {
+      "_id": "card-1",
+      "rId": "rem-card-source",
+      "ml": "New"
+    }
+  ]
+}

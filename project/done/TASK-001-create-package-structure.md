@@ -1,7 +1,7 @@
 ---
 task: TASK-001
 title: "Create migration package structure"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ The project currently has only a minimal package entry point. PRD-001 and the ar
 
 ## Done
 
-- [ ] package directories exist
-- [ ] module boundaries match `docs/ARCHITECTURE.md`
-- [ ] existing script entry point still imports
-- [ ] smoke test covers imports
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] package directories exist
+- [x] module boundaries match `docs/ARCHITECTURE.md`
+- [x] existing script entry point still imports
+- [x] smoke test covers imports
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

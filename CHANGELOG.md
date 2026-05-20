@@ -1,3 +1,11 @@
+## [0.3.0] - 2026-05-20
+
+### Added
+
+- Initial migration package boundaries for adapters, domain, services, models, CLI, and utilities.
+- Deterministic artificial RemNote export fixtures for valid, optional-file, invalid JSON, missing-file, hierarchy, reference, and attachment cases.
+- Shared migration diagnostic and result models for errors, warnings, source context, and generic operation results.
+
 ## [0.2.0] - 2026-04-21
 
 ### Added

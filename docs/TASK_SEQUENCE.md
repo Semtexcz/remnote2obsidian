@@ -2,9 +2,6 @@
 
 ## Order
 
-- TASK-001 Create migration package structure
-- TASK-002 Add deterministic RemNote fixtures
-- TASK-003 Define migration result models
 - TASK-004 Implement JSON file adapter
 - TASK-005 Load RemNote export directory
 - TASK-006 Validate export envelope
@@ -33,14 +30,8 @@
 
 ## Dependencies
 
-### Foundation
-
-- TASK-002 <- TASK-001
-- TASK-003 <- TASK-001
-
 ### Loading and Validation
 
-- TASK-004 <- TASK-003
 - TASK-005 <- TASK-004
 - TASK-006 <- TASK-005
 
@@ -85,4 +76,4 @@ Do not violate Dependencies.
 
 ## MVP Path
 
-The MVP path is TASK-001 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.
+TASK-001 through TASK-003 are complete. The remaining MVP path is TASK-004 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.

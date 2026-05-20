@@ -1,0 +1,10 @@
+{
+  "version": "1.25.19",
+  "date": "2026-05-20",
+  "device": {
+    "platform": "test"
+  },
+  "user": {
+    "username": "fixture-user"
+  }
+}

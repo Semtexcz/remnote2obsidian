@@ -1,7 +1,7 @@
 ---
 task: TASK-002
 title: "Add deterministic RemNote fixtures"
-status: backlog
+status: done
 priority: P1
 type: test
 created: 2026-05-20
@@ -43,12 +43,12 @@ The test strategy prefers small deterministic fixtures. The real export is sensi
 
 ## Done
 
-- [ ] deterministic fixtures exist
-- [ ] fixtures are small and safe to commit
-- [ ] fixtures cover valid and invalid export cases
-- [ ] fixtures include representative hierarchy and metadata
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] deterministic fixtures exist
+- [x] fixtures are small and safe to commit
+- [x] fixtures cover valid and invalid export cases
+- [x] fixtures include representative hierarchy and metadata
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

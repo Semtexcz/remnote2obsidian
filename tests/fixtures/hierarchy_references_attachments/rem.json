@@ -1,0 +1,52 @@
+{
+  "userId": "user-fixture",
+  "knowledgebaseId": "kb-fixture",
+  "name": "Hierarchy References Attachments Fixture",
+  "exportDate": "2026-05-20T00:00:00.000Z",
+  "exportVersion": 2,
+  "docs": [
+    {
+      "_id": "rem-root",
+      "key": ["Root"],
+      "children": ["rem-child", "rem-reference"],
+      "fixtureUnknownRootField": {
+        "preserve": true
+      }
+    },
+    {
+      "_id": "rem-child",
+      "parent": "rem-root",
+      "key": ["Child with local file ", "%LOCAL_FILE%fixture-document.pdf"],
+      "children": ["rem-grandchild"]
+    },
+    {
+      "_id": "rem-grandchild",
+      "parent": "rem-child",
+      "key": ["Grandchild"],
+      "value": [
+        {
+          "i": "q",
+          "_id": "rem-reference"
+        }
+      ],
+      "references": ["rem-reference"]
+    },
+    {
+      "_id": "rem-reference",
+      "parent": "rem-root",
+      "key": [
+        "Referenced image ",
+        {
+          "content": {
+            "imageBlob": {},
+            "imageUrl": "https://remnote-user-data.s3.amazonaws.com/fixture-image.png"
+          }
+        }
+      ],
+      "unknownNestedData": {
+        "kind": "fixture",
+        "values": [1, 2, 3]
+      }
+    }
+  ]
+}

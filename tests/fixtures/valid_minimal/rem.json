@@ -1,0 +1,14 @@
+{
+  "userId": "user-fixture",
+  "knowledgebaseId": "kb-fixture",
+  "name": "Minimal Fixture",
+  "exportDate": "2026-05-20T00:00:00.000Z",
+  "exportVersion": 2,
+  "docs": [
+    {
+      "_id": "rem-root",
+      "key": ["Root"],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "userId": "user-fixture",
+  "docs": [
+    {
+      "_id": "broken-rem",
+      "key": ["Broken"]
+    }
+  ]

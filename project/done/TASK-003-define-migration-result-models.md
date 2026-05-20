@@ -1,7 +1,7 @@
 ---
 task: TASK-003
 title: "Define migration result models"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ Multiple features need consistent reporting for missing files, invalid JSON, gra
 
 ## Done
 
-- [ ] diagnostic models exist
-- [ ] errors and warnings can be represented separately
-- [ ] source context can identify files or RemNote IDs
-- [ ] models are deterministic and type hinted
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] diagnostic models exist
+- [x] errors and warnings can be represented separately
+- [x] source context can identify files or RemNote IDs
+- [x] models are deterministic and type hinted
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
