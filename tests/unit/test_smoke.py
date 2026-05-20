@@ -1,14 +1,13 @@
-"""Smoke tests for the generated CLI entry point."""
+"""Smoke tests for the CLI entry point."""
 
-from typing import Any
+from typer.testing import CliRunner
 
-from pytest import CaptureFixture
-
-from remnote2obsidian.main import main
+from remnote2obsidian.cli import app
 
 
-def test_main_runs(capsys: CaptureFixture[Any]) -> None:
-    """The starter CLI should execute without errors."""
-    main()
-    captured = capsys.readouterr()
-    assert "Remnote2Obsidian running" in captured.out
+def test_cli_help_runs() -> None:
+    """The Typer CLI should expose help successfully."""
+    result = CliRunner().invoke(app, ["--help"])
+
+    assert result.exit_code == 0
+    assert "migrate" in result.stdout

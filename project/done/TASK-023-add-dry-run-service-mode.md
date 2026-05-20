@@ -1,7 +1,7 @@
 ---
 task: TASK-023
 title: "Add dry-run service mode"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ Dry-run mode is part of the CLI feature, but the behavior should live in service
 
 ## Done
 
-- [ ] dry-run mode produces no output files
-- [ ] dry-run mode reports validation status
-- [ ] dry-run mode reports planned output counts where available
-- [ ] blocking errors are visible
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] dry-run mode produces no output files
+- [x] dry-run mode reports validation status
+- [x] dry-run mode reports planned output counts where available
+- [x] blocking errors are visible
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

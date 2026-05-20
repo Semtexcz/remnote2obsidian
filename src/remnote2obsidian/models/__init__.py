@@ -7,6 +7,7 @@ from remnote2obsidian.models.ai_context import (
 )
 from remnote2obsidian.models.json import JsonArray, JsonObject, JsonValue
 from remnote2obsidian.models.markdown import MarkdownDocument, MarkdownPathMap
+from remnote2obsidian.models.migration import MigrationRequest, MigrationSummary
 from remnote2obsidian.models.raw_remnote import RawCardMetadata, RawRemDocument
 from remnote2obsidian.models.rem_graph import (
     AttachmentReference,
@@ -35,6 +36,8 @@ __all__ = [
     "JsonValue",
     "MarkdownDocument",
     "MarkdownPathMap",
+    "MigrationRequest",
+    "MigrationSummary",
     "OPTIONAL_EXPORT_FILENAMES",
     "AttachmentReference",
     "AttachmentReferenceKind",

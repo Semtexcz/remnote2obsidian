@@ -1,6 +1,8 @@
-"""CLI entry point for the generated project."""
+"""Console script entry point for the RemNote to Obsidian CLI."""
+
+from remnote2obsidian.cli import main as cli_main
 
 
 def main() -> None:
-    """Run the starter command-line interface."""
-    print("Remnote2Obsidian running")
+    """Run the Typer command-line interface."""
+    cli_main()

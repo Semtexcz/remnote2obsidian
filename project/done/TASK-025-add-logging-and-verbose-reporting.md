@@ -1,7 +1,7 @@
 ---
 task: TASK-025
 title: "Add logging and verbose reporting"
-status: backlog
+status: done
 priority: P2
 type: feature
 created: 2026-05-20
@@ -44,12 +44,12 @@ Large exports and partially undocumented structures require clear inspection sup
 
 ## Done
 
-- [ ] normal mode reports final status clearly
-- [ ] verbose mode includes detailed diagnostics
-- [ ] diagnostic order is deterministic
-- [ ] blocking errors are easy to identify
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] normal mode reports final status clearly
+- [x] verbose mode includes detailed diagnostics
+- [x] diagnostic order is deterministic
+- [x] blocking errors are easy to identify
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

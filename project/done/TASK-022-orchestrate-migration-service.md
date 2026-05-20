@@ -1,7 +1,7 @@
 ---
 task: TASK-022
 title: "Orchestrate migration service"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -47,12 +47,12 @@ Services may coordinate adapters and domain modules. The CLI should remain thin 
 
 ## Done
 
-- [ ] service coordinates the migration pipeline
-- [ ] service returns success, warnings, and errors
-- [ ] service preserves read-only source behavior
-- [ ] integration test covers a small valid fixture
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] service coordinates the migration pipeline
+- [x] service returns success, warnings, and errors
+- [x] service preserves read-only source behavior
+- [x] integration test covers a small valid fixture
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

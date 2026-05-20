@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "remnote2obsidian"
-version = "0.8.0"
+version = "0.9.0"
 description = "Migration tool from RemNote to Obsidian."
 authors = ["Daniel Kopecký <kopecky.d@seznam.cz>"]
 readme = "README.md"
@@ -8,6 +8,7 @@ packages = [{ include = "remnote2obsidian", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.13"
+typer = "^0.25.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.0"

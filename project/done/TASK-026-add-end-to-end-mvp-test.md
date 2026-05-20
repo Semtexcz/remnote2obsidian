@@ -1,7 +1,7 @@
 ---
 task: TASK-026
 title: "Add end-to-end MVP test"
-status: backlog
+status: done
 priority: P1
 type: test
 created: 2026-05-20
@@ -47,12 +47,12 @@ The MVP needs confidence that the main workflow works from input export to gener
 
 ## Done
 
-- [ ] e2e or integration MVP test exists
-- [ ] generated vault output is verified
-- [ ] AI manifest output is verified
-- [ ] deterministic rerun behavior is verified
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] e2e or integration MVP test exists
+- [x] generated vault output is verified
+- [x] AI manifest output is verified
+- [x] deterministic rerun behavior is verified
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

@@ -1,3 +1,13 @@
+## [0.9.0] - 2026-05-20
+
+### Added
+
+- Migration service that orchestrates loading, validation, graph construction, Markdown rendering, AI context generation, and output writing.
+- Dry-run migration mode with deterministic planning counts and no output writes.
+- Typer-based CLI with input/output arguments, dry-run mode, verbose reporting, and non-zero failure exits.
+- Deterministic CLI report formatting for summaries, warnings, and errors.
+- End-to-end MVP integration tests for service and CLI migration runs.
+
 ## [0.8.0] - 2026-05-20
 
 ### Added

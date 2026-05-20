@@ -1,7 +1,7 @@
 ---
 task: TASK-024
 title: "Add CLI entrypoint"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -45,13 +45,13 @@ The CLI must stay thin and must not contain domain parsing, rendering, or filesy
 
 ## Done
 
-- [ ] CLI is implemented with Typer
-- [ ] CLI accepts input and output paths
-- [ ] CLI supports dry-run mode
-- [ ] CLI supports verbose mode
-- [ ] CLI delegates to the migration service
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] CLI is implemented with Typer
+- [x] CLI accepts input and output paths
+- [x] CLI supports dry-run mode
+- [x] CLI supports verbose mode
+- [x] CLI delegates to the migration service
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
