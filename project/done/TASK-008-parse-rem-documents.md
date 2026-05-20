@@ -1,7 +1,7 @@
 ---
 task: TASK-008
 title: "Parse raw Rem documents"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -44,12 +44,12 @@ Graph construction needs raw Rem models keyed by original IDs. This task convert
 
 ## Done
 
-- [ ] valid docs entries become raw Rem models
-- [ ] missing IDs are reported
-- [ ] non-object docs entries are reported
-- [ ] parser output is deterministic
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] valid docs entries become raw Rem models
+- [x] missing IDs are reported
+- [x] non-object docs entries are reported
+- [x] parser output is deterministic
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

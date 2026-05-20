@@ -1,7 +1,7 @@
 ---
 task: TASK-009
 title: "Parse rich text fragments"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -44,12 +44,12 @@ Represent RemNote `key` and `value` fragments in a preservation-first internal f
 
 ## Done
 
-- [ ] plain text fragments are represented
-- [ ] reference fragments preserve target RemNote IDs
-- [ ] unsupported fragments are preserved
-- [ ] warnings are deterministic
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] plain text fragments are represented
+- [x] reference fragments preserve target RemNote IDs
+- [x] unsupported fragments are preserved
+- [x] warnings are deterministic
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

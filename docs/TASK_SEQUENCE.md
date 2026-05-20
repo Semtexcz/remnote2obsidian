@@ -2,9 +2,6 @@
 
 ## Order
 
-- TASK-007 Define raw RemNote models
-- TASK-008 Parse raw Rem documents
-- TASK-009 Parse rich text fragments
 - TASK-010 Build Rem graph nodes
 - TASK-011 Reconstruct Rem hierarchy
 - TASK-012 Handle unknown Rem types
@@ -29,9 +26,6 @@
 
 ### Parsing and Graph
 
-- TASK-008 <- TASK-007
-- TASK-009 <- TASK-008
-- TASK-010 <- TASK-008, TASK-009
 - TASK-011 <- TASK-010
 - TASK-012 <- TASK-010
 - TASK-013 <- TASK-010
@@ -67,4 +61,4 @@ Do not violate Dependencies.
 
 ## MVP Path
 
-TASK-001 through TASK-006 are complete. The remaining MVP path is TASK-007 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.
+TASK-001 through TASK-009 are complete. The remaining MVP path is TASK-010 through TASK-026. TASK-027 and TASK-028 harden the project for real-export validation and user-facing usage after the core workflow is working.

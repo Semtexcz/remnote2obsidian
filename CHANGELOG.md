@@ -1,3 +1,11 @@
+## [0.5.0] - 2026-05-20
+
+### Added
+
+- Raw RemNote document and card metadata models that preserve known fields, unknown fields, and original JSON records.
+- Raw `rem.json` document parser with deterministic diagnostics for malformed records and missing RemNote IDs.
+- Preservation-first rich text fragment parser for plain text, RemNote references, and unsupported fragment data.
+
 ## [0.4.0] - 2026-05-20
 
 ### Added

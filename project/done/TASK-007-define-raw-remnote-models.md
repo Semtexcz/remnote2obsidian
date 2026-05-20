@@ -1,7 +1,7 @@
 ---
 task: TASK-007
 title: "Define raw RemNote models"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ The RemNote format is partially undocumented. Known fields must be easy to acces
 
 ## Done
 
-- [ ] raw Rem model preserves known fields
-- [ ] raw Rem model preserves unknown fields
-- [ ] raw card model preserves `rId` and scheduling metadata
-- [ ] models tolerate optional and missing fields
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] raw Rem model preserves known fields
+- [x] raw Rem model preserves unknown fields
+- [x] raw card model preserves `rId` and scheduling metadata
+- [x] models tolerate optional and missing fields
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
