@@ -24,6 +24,7 @@ The migration needs a repeatable user-facing entry point that can orchestrate lo
 - support verbose mode for more detailed progress and validation reporting
 - orchestrate existing services for loading, parsing, Markdown generation, AI-context generation, and writing
 - return clear success and failure statuses suitable for scripts
+- implement CLI commands and argument parsing with Typer
 
 ## Out of Scope
 
@@ -49,5 +50,6 @@ The migration needs a repeatable user-facing entry point that can orchestrate lo
 - relates to PRD-001
 - orchestrates FEATURE-001, FEATURE-002, FEATURE-003, and FEATURE-004
 - `cli/` should stay thin and delegate workflow coordination to `services/`
+- CLI commands must be implemented with Typer
 - filesystem and external I/O belong in `adapters/`
 - export files must be treated as read-only input

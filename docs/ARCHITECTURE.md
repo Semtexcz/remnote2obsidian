@@ -106,6 +106,7 @@ Preferred structure:
 
 - `cli/`
   - command-line interface
+  - if a CLI is implemented, it must be built with Typer
 
 - `models/`
   - shared data structures
@@ -209,6 +210,7 @@ The system should preserve:
 - `services/` may coordinate domain and adapters
 - `adapters/` handle external I/O
 - `cli/` should remain thin
+- CLI entry points must use Typer for argument parsing and command definitions
 - `utils/` must not become a dumping ground
 
 Do not put application logic in:
@@ -257,4 +259,3 @@ Important assumptions:
 The migration must preserve original RemNote IDs whenever possible.
 
 ```
-

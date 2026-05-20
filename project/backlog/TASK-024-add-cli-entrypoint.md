@@ -30,6 +30,7 @@ The CLI must stay thin and must not contain domain parsing, rendering, or filesy
 
 ## Scope
 
+- implement the CLI with Typer
 - parse input path and output path arguments
 - parse dry-run and verbose flags
 - call the migration service
@@ -44,6 +45,7 @@ The CLI must stay thin and must not contain domain parsing, rendering, or filesy
 
 ## Done
 
+- [ ] CLI is implemented with Typer
 - [ ] CLI accepts input and output paths
 - [ ] CLI supports dry-run mode
 - [ ] CLI supports verbose mode
@@ -59,5 +61,5 @@ The CLI must stay thin and must not contain domain parsing, rendering, or filesy
 
 ## Notes
 
-- use standard-library argument parsing unless a dependency is justified
+- add Typer as the CLI dependency when implementing this task
 - preserve the existing Poetry script name
