@@ -1,7 +1,7 @@
 ---
 task: TASK-028
 title: "Document MVP usage"
-status: backlog
+status: done
 priority: P2
 type: docs
 created: 2026-05-20
@@ -43,12 +43,12 @@ Once the CLI workflow exists, users need concise instructions for running the to
 
 ## Done
 
-- [ ] README or docs explain basic CLI usage
-- [ ] dry-run and verbose modes are documented
-- [ ] output structure is described
-- [ ] read-only source behavior is stated
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] README or docs explain basic CLI usage
+- [x] dry-run and verbose modes are documented
+- [x] output structure is described
+- [x] read-only source behavior is stated
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

@@ -1,6 +1,6 @@
 # Remnote2Obsidian
 
-Migration tool from RemNote to Obsidian..
+Migration tool from RemNote to Obsidian.
 
 ## Structure
 
@@ -26,5 +26,42 @@ For the full human-oriented playbook, see `docs/WORKFLOW.md`.
 ```bash
 poetry install
 poetry run pytest
-poetry run remnote2obsidian
 ```
+
+## MVP Usage
+
+Run the migration with explicit source and destination paths:
+
+```bash
+poetry run remnote2obsidian migrate path/to/remnote-export path/to/obsidian-vault
+```
+
+The input path must point to a RemNote JSON export directory containing `rem.json`.
+Optional supported export files, such as `cards.json` and `metadata.json`, are loaded
+when present. Export files are treated as read-only input; migration output is written
+only under the requested Obsidian vault directory.
+
+Preview a migration without writing output files:
+
+```bash
+poetry run remnote2obsidian migrate path/to/remnote-export path/to/obsidian-vault --dry-run
+```
+
+Show detailed diagnostics during a full migration or dry run:
+
+```bash
+poetry run remnote2obsidian migrate path/to/remnote-export path/to/obsidian-vault --verbose
+poetry run remnote2obsidian migrate path/to/remnote-export path/to/obsidian-vault --dry-run --verbose
+```
+
+Generated output currently includes Markdown notes under `notes/` and an AI-readable
+manifest at `.remnote2obsidian/manifest.json`. The manifest maps original RemNote IDs
+to generated Markdown paths and relationship metadata for agent-assisted inspection.
+
+For contributor validation, run:
+
+```bash
+poetry run pytest
+```
+
+See `docs/MVP_USAGE.md` for the concise implementation-oriented usage reference.

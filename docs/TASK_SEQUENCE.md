@@ -2,7 +2,7 @@
 
 ## Order
 
-- TASK-028 Document MVP usage
+All MVP backlog tasks are complete.
 
 ## Dependencies
 
@@ -13,4 +13,4 @@ Do not violate Dependencies.
 
 ## MVP Path
 
-TASK-001 through TASK-027 are complete. TASK-028 hardens the project for user-facing usage after the core workflow is working.
+TASK-001 through TASK-028 are complete. The MVP path is ready for follow-up task planning.

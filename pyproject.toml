@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "remnote2obsidian"
-version = "0.9.1"
+version = "0.9.2"
 description = "Migration tool from RemNote to Obsidian."
 authors = ["Daniel Kopecký <kopecky.d@seznam.cz>"]
 readme = "README.md"

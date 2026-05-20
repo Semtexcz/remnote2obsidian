@@ -1,3 +1,10 @@
+## [0.9.2] - 2026-05-20
+
+### Added
+
+- MVP usage documentation for full migrations, dry runs, verbose diagnostics, output
+  structure, read-only export handling, and contributor test validation.
+
 ## [0.9.1] - 2026-05-20
 
 ### Added
