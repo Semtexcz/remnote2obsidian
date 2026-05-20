@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "remnote2obsidian"
-version = "0.9.0"
+version = "0.9.1"
 description = "Migration tool from RemNote to Obsidian."
 authors = ["Daniel Kopecký <kopecky.d@seznam.cz>"]
 readme = "README.md"
@@ -22,6 +22,9 @@ pre-commit = "^3.6"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+markers = [
+    "large_export: opt-in smoke tests that process the local real RemNote export",
+]
 
 [tool.ruff]
 line-length = 100

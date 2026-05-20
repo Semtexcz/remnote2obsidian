@@ -1,7 +1,7 @@
 ---
 task: TASK-027
 title: "Add large export smoke test"
-status: backlog
+status: done
 priority: P2
 type: test
 created: 2026-05-20
@@ -44,12 +44,12 @@ PRD-001 success criteria include parsing a real RemNote export. The repository c
 
 ## Done
 
-- [ ] large export check is optional or guarded
-- [ ] normal test suite remains fast
-- [ ] check validates real export loading and graph construction
-- [ ] sensitive content is not printed in test output
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] large export check is optional or guarded
+- [x] normal test suite remains fast
+- [x] check validates real export loading and graph construction
+- [x] sensitive content is not printed in test output
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

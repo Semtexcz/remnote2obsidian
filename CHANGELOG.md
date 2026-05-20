@@ -1,3 +1,10 @@
+## [0.9.1] - 2026-05-20
+
+### Added
+
+- Opt-in large real-export smoke test guarded by a pytest marker and environment variable.
+- Test strategy documentation for running the large export validation explicitly.
+
 ## [0.9.0] - 2026-05-20
 
 ### Added
