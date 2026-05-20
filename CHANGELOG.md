@@ -1,3 +1,11 @@
+## [0.8.0] - 2026-05-20
+
+### Added
+
+- AI manifest models for mapping RemNote IDs to generated Markdown paths and relationship metadata.
+- Deterministic AI manifest generation and JSON serialization.
+- AI context writer adapter that writes the manifest to `.remnote2obsidian/manifest.json`.
+
 ## [0.7.0] - 2026-05-20
 
 ### Added

@@ -1,7 +1,7 @@
 ---
 task: TASK-020
 title: "Generate AI manifest"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -43,12 +43,12 @@ AI-agent compatibility is a core requirement. The manifest must complement Markd
 
 ## Done
 
-- [ ] manifest maps RemNote IDs to Markdown paths
-- [ ] manifest includes useful relationship metadata
-- [ ] manifest serialization is deterministic
-- [ ] original RemNote IDs are preserved
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] manifest maps RemNote IDs to Markdown paths
+- [x] manifest includes useful relationship metadata
+- [x] manifest serialization is deterministic
+- [x] original RemNote IDs are preserved
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 

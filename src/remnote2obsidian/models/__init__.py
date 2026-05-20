@@ -1,5 +1,10 @@
 """Shared data models for migration workflows."""
 
+from remnote2obsidian.models.ai_context import (
+    AI_CONTEXT_MANIFEST_PATH,
+    AiManifest,
+    AiManifestEntry,
+)
 from remnote2obsidian.models.json import JsonArray, JsonObject, JsonValue
 from remnote2obsidian.models.markdown import MarkdownDocument, MarkdownPathMap
 from remnote2obsidian.models.raw_remnote import RawCardMetadata, RawRemDocument
@@ -20,6 +25,9 @@ from remnote2obsidian.models.rich_text import RichTextFragment, RichTextFragment
 from remnote2obsidian.models.result import Diagnostic, DiagnosticSeverity, Result, SourceContext
 
 __all__ = [
+    "AI_CONTEXT_MANIFEST_PATH",
+    "AiManifest",
+    "AiManifestEntry",
     "Diagnostic",
     "DiagnosticSeverity",
     "JsonArray",

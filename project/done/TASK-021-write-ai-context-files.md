@@ -1,7 +1,7 @@
 ---
 task: TASK-021
 title: "Write AI context files"
-status: backlog
+status: done
 priority: P1
 type: feature
 created: 2026-05-20
@@ -42,12 +42,12 @@ Manifest derivation belongs in domain logic, while filesystem writing belongs in
 
 ## Done
 
-- [ ] AI manifest is written to a stable output path
-- [ ] output directory is created as needed
-- [ ] file content is deterministic
-- [ ] write failures are reported
-- [ ] tests added or updated
-- [ ] docs updated if behavior changed
+- [x] AI manifest is written to a stable output path
+- [x] output directory is created as needed
+- [x] file content is deterministic
+- [x] write failures are reported
+- [x] tests added or updated
+- [x] docs updated if behavior changed
 
 ## Validation
 
